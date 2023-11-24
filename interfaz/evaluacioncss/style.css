@@ -20,3 +20,7 @@ body {
 .Margen {
     margin: 100px ;
 }
+
+.tabla {
+    border: 1px solid ;
+}
