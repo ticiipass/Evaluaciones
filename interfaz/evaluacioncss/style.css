@@ -22,5 +22,14 @@ body {
 }
 
 .tabla {
-    border: 1px solid ;
+
+    border: 1px solid black;
+    border-left: 1px solid black;
+
+}
+
+
+.table, td, th   {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
