@@ -7,6 +7,7 @@ class Rectangulo :
         self.ancho = ancho
 
     def calcular_area (self):
+        
 
         self.area = self.longitud * self.ancho
         return (self.area)
@@ -16,6 +17,9 @@ class Rectangulo :
         self.perimetro = self.longitud + self.ancho * 2 
         return (self.perimetro)
 
-#rec1 = Rectangulo (6,8)
+rec1 = Rectangulo (6,8)
 
-#print (rec1.calcular_perimetro())
+
+print (rec1.calcular_perimetro())
+
+print (rec1.calcular_area())
